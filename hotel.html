@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Rezerwacja noclegów w hotelu “Overlook”</title>
+    <meta charset="utf-8">
+    <script src="client/client.js"></script>
+    <link rel="stylesheet" href="public/style.css">
+    <script>
+	document.addEventListener('DOMContentLoaded', loadEverything);
+    </script>
+</head>
+<body>
+<header>
+  <h1>Rezerwacja noclegów w hotelu “Overlook”</h1>
+</header>
+<span>
+<span id="calendar_header_month"></span>
+<span id="calendar_header_year"></span><br/><br/>
+</span>
+<button onclick="changeCalendarHeader('next')">Następny</button>
+<button onclick="changeCalendarHeader('prev')">Poprzedni</button><br/>
+<ahead id='calendar'></ahead>
+<article>
+  <h1><time id='dat'>Data</time></h1>
+  <div id='rooms'>Rooms</div>
+</article>
+</body>
+</html>
+

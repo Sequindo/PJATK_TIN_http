@@ -1,0 +1,24 @@
+.booked {
+    background: linear-gradient(90deg, #d11111 1.75%, #ffffff 0%);
+}
+.free {
+    background: linear-gradient(90deg, #269410, 1.75%, #ffffff 0%);
+}
+td, tr, table {
+    border: 1px solid black;
+}
+.available{
+    background-color: #269410;
+}
+.weekend {
+    background-color: rgb(117, 117, 34);
+}
+.notAvailable {
+    background-color: #d11111;
+}
+.today {
+    background-color: yellow;
+}
+[onclick] {
+    cursor: pointer;
+}
